@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<style>
+.sigma 
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:cornflowerblue;
+    text-align: center;
+}
+p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: cornflowerblue;
+    text-align: center;
+}
+.top-nav {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 20px;
+    background: #f8f8f8;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+.top-nav .nav-link {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: cornflowerblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+.top-nav .nav-link:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+.sigma h1 {
+    font-size: clamp(2rem, 6vw, 4rem);
+    margin: 0.25rem 0;
+}
+.sigma p {
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    margin: 0;
+}
+</style>
+</head>
+<body>
+    <nav class="top-nav" aria-label="Main navigation">
+        <a class="nav-link" href="home">Home</a>
+        <a class="nav-link" href="About">About</a>
+        <a class="nav-link" href="">Bucket List</a>
+    </nav>
+
+    <div class="sigma">
+        <h1>GEDA</h1>
+        <p>DWYANE HECKLE</p>
+    </div>
+<div class="">
+
+</div>
+
+    
+</body>
+</html>
