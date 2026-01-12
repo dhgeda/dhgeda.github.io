@@ -1,4 +1,3 @@
-
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html,body { height: 100%; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color: #222; }
 a
@@ -63,3 +62,5 @@ a
   .sidebar { order:3; }
   .contact-grid { grid-template-columns: 1fr; }
 }
+
+<!-- FOR UPDATE -->
